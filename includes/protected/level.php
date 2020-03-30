@@ -10,8 +10,10 @@ if(isset($_SESSION['email']))
   $user_count = mysql_num_rows($result);
   if ($user_count==1) {
     $level = $row['level'];
+    $random = $row['random'];
     $_SESSION['level'] = $level;
-    require 'levels/level'.$level.'.php';
+    $_SESSION['random'] = $random;
+    require 'levels/level'.$level.''.$random.'.php';
   }
 }
  ?>

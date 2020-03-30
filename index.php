@@ -15,7 +15,6 @@ $que1 = mysql_query("SELECT * FROM users ORDER BY score DESC LIMIT 20");
 <!DOCTYPE html>
 <html>
 
-<!-- Mirrored from webapplayers.com/luna_admin-v1.4/profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Mar 2020 12:41:20 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
