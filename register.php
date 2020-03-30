@@ -8,7 +8,7 @@ if (isset($_SESSION['email'])) {
 <!DOCTYPE html>
 <html>
 
-<!-- Mirrored from webapplayers.com/luna_admin-v1.4/register.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Mar 2020 12:41:27 GMT -->
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -107,7 +107,9 @@ if (isset($_SESSION['email'])) {
 
 <!-- App scripts -->
 <script src="scripts/luna.js"></script>
-    <script>  
+
+<script>  
+
 function validateeform(){  
 var num1=document.myform1.contact.value;  
 var password=document.myform1.password.value;  
@@ -116,7 +118,6 @@ var x=document.myform1.email.value;
 var atposition=x.indexOf("@");  
 var dotposition=x.lastIndexOf(".");  
 
-    
 if (name==null || name==""){  
   alert("Username can't be blank");  
   return false;  
@@ -124,23 +125,22 @@ if (name==null || name==""){
 
  if (isNaN(num1)){  
   alert("Please Enter A Valid Contact no. ");   
-  return false;  
+  return false;
+   
 }else if((num1.length<10 || num1.length>10)){
-        
    alert("Please enter a valid contact no. ");  
   return false;
 }
 
-    
 if (password==null || password==""){  
   alert("Password can't be blank");  
   return false;  
+  
 }else if(password.length<6){  
  alert("Password must be at least 6 characters long.");  
  return false;  
   }
 
-    
 if (x==null || x==""){  
   alert("Email can't be blank");  
   return false;  
@@ -148,10 +148,7 @@ if (x==null || x==""){
   alert("Please enter a valid e-mail address \n atpostion:"+atposition+"\n dotposition:"+dotposition);  
   return false;  
   }  
-  
 
-
-}  
 </script> 
 
 </body>

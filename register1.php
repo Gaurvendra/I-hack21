@@ -10,7 +10,8 @@ $password = $_POST['password'];
 $result = mysql_query("SELECT * FROM `users` WHERE `email`= '".$Email."' ") or die("Cannot connect to database!");
 $user_count = mysql_num_rows($result);
 if ($user_count==0) {
-    $sql = mysql_query("INSERT into `users` (`email`, `password`, `name`, `contact`, `registration`, `level`) values('".$Email."','".$password."','".$name."','".$contact."','success','1')");
+    $random = mt_rand(1,4);
+    $sql = mysql_query("INSERT into `users` (`email`, `password`, `name`, `contact`, `registration`, `level`, `random`) values('".$Email."','".$password."','".$name."','".$contact."','success','1', '".$random."')");
     $sql1 = mysql_query("INSERT into `Progress` (`Email`) values('".$Email."')");
 
     if ($sql && $sql1) {
