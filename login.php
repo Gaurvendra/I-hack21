@@ -59,7 +59,7 @@ if (isset($_SESSION['email'])) {
 
             <div class="panel panel-filled">
                 <div class="panel-body">
-                    <form action="login1.php" id="loginForm" novalidate method="post">
+                    <form name="myform" onsubmit="return validateform()" action="login1.php" id="loginForm" novalidate method="post">
                         <div class="form-group">
                             <label class="col-form-label" for="username">Email</label>
                             <input type="email" placeholder="example@gmail.com" title="Please enter you username" required="" value="" name="email" id="username" class="form-control">
@@ -92,6 +92,30 @@ if (isset($_SESSION['email'])) {
 
 <!-- App scripts -->
 <script src="scripts/luna.js"></script>
+    <script>  
+function validateform(){  
+ 
+var password=document.myform.password.value;  
+var x=document.myform.email.value;  
+var atposition=x.indexOf("@");  
+var dotposition=x.lastIndexOf(".");  
+if (x==null || x==""){  
+  alert("Email can't be blank");  
+  return false;  
+}else if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
+  alert("Please enter a valid e-mail address \n atpostion:"+atposition+"\n dotposition:"+dotposition);  
+  return false;  
+  }  
+  
+if (password==null || password==""){  
+  alert("Password can't be blank");  
+  return false;  
+}//else if(password.length<6){  
+ // alert("Password must be at least 6 characters long.");  
+ // return false;  
+  //}  
+}  
+</script>  
 
 </body>
 

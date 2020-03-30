@@ -62,7 +62,7 @@ if (isset($_SESSION['email'])) {
                     <p>
 
                     </p>
-                    <form action="register1.php" id="loginForm" novalidate method="post">
+                    <form name = "myform1" action="register1.php" onsubmit="return validateeform()" id="loginForm" novalidate method="post">
                         <div class="row">
                             <div class="form-group col-lg-6">
                                 <label>Name</label>
@@ -107,6 +107,52 @@ if (isset($_SESSION['email'])) {
 
 <!-- App scripts -->
 <script src="scripts/luna.js"></script>
+    <script>  
+function validateeform(){  
+var num1=document.myform1.contact.value;  
+var password=document.myform1.password.value;  
+var name=document.myform1.username.value;  
+var x=document.myform1.email.value;  
+var atposition=x.indexOf("@");  
+var dotposition=x.lastIndexOf(".");  
+
+    
+if (name==null || name==""){  
+  alert("Username can't be blank");  
+  return false;  
+}
+
+ if (isNaN(num1)){  
+  alert("Please Enter A Valid Contact no. ");   
+  return false;  
+}else if((num1.length<10 || num1.length>10)){
+        
+   alert("Please enter a valid contact no. ");  
+  return false;
+}
+
+    
+if (password==null || password==""){  
+  alert("Password can't be blank");  
+  return false;  
+}else if(password.length<6){  
+ alert("Password must be at least 6 characters long.");  
+ return false;  
+  }
+
+    
+if (x==null || x==""){  
+  alert("Email can't be blank");  
+  return false;  
+}else if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
+  alert("Please enter a valid e-mail address \n atpostion:"+atposition+"\n dotposition:"+dotposition);  
+  return false;  
+  }  
+  
+
+
+}  
+</script> 
 
 </body>
 
