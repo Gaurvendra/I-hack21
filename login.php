@@ -91,9 +91,9 @@ if (isset($_SESSION['email'])) {
 
 <!-- App scripts -->
 <script src="scripts/luna.js"></script>
+
 <script>  
 function validateform(){  
-
 var password=document.myform.password.value;  
 var x=document.myform.email.value;  
 var atposition=x.indexOf("@");  
