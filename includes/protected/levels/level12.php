@@ -1,8 +1,8 @@
 <?php
-$img ="assets/img/level2.png";
-$question = "An angry professoe, the misguided confessor";
-$level = 2;
-$comment = "<!-- Download_Image -->";
+$img ="assets/img/pZ6BkiduzU7.png";
+$question = "Yet to Decide";
+$level = 1;
+$comment = "<!-- 003 097 141 233  -->";
 ?>
   <!--Begin Main Panel-->
   <div class="main-panel">
@@ -34,6 +34,7 @@ $comment = "<!-- Download_Image -->";
             <li class="nav-item dropdown dropdown-slide">
               <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="material-icons">account_box</i>
+                            <?php echo $comment; ?>
                         </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="javascript:void(0)">

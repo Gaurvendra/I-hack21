@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<!-- Mirrored from webapplayers.com/luna_admin-v1.4/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Mar 2020 12:40:13 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
