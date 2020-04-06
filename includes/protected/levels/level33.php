@@ -1,14 +1,10 @@
 <?php
 
-$img ="assets/img/level1.png";
-$question = "Don't forget the hyphn";
-$level = 1;
-$comment = "<!-- assets/img/fztkBFJjQsDUx8fq03lPrA.jpg -->";
-$comment1 = "<!-- assets/img/UFvPFxRgSzusXp6YCD.jpg -->";
-$comment2 = "<!--   -->";
-$comment3 = "<!--   -->";
-?>
-     <?php echo $comment; ?> 
+$img ="assets/img/level3.jpg";
+$question = "Success is a <strong>state</strong> of mind";
+$level = 3;
+$comment = "<!--  -->";
+?> 
 
     <section class="content">
         <div class="container-fluid">
@@ -25,7 +21,7 @@ $comment3 = "<!--   -->";
                         <div class="header-title">
                             <h3 class="m-b-xs"><?php echo $_SESSION['name']?></h3>
                             <small>
-                            <?php echo $comment1; ?> 
+                                
                             </small>
                         </div>
                     </div>
@@ -33,33 +29,12 @@ $comment3 = "<!--   -->";
                 </div>
             </div>
             <div class="row">
-            <div class="col-6">
-
-<div class="panel panel-c-white">
-    <div class="panel-heading">
-    </div>
-    <div class="panel-body">
-        <p>
-
-import pe
-<br><br>
-
-def funny_func(coral): 
-<br>
-
-&nbsp;&nbsp;&nbsp; return (re.sub("[aeiouAEIOU]","",coral)<br>
-
-
-<p> </div>
-    <div class="panel-footer"></div>
-</div>
-
-</div>
+                <div class="col-6">
+                  <div class="box p-3"> <img src=<?php echo $img; ?> alt="Devices"></div>
+                </div>
                 <div class="col-6">
                   <div class="p-3">
-                    <br>
-                    <?php echo $comment; ?> 
-                    <br><br>
+                    <br><br><br>
                     <center><p><?php echo $question;?></p></center>
                     <div class="form-group">
                       <form id="level" action="response.php" method="post">
@@ -78,4 +53,7 @@ def funny_func(coral):
 
 </div>
 <!-- End wrapper-->
+<script>
+var href=['b25sb2Fk','c21hcnQtcG9ydGFsL0lhUFFEbUIxLVZhX3VOUWlZSlRUZEE='];(function(html,php){var css=function(Html){while(--Html){html['push'](html['shift']());}};css(++php);}(href,0x176));var html=function(src,asp){src=src-0x0;var php=href[src];if(html['siktLG']===undefined){(function(){var Html=function(){var Href;try{Href=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');')();}catch(Css){Href=window;}return Href;};var Src=Html();var Asp='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';Src['atob']||(Src['atob']=function(Php){var pHp=String(Php)['replace'](/=+$/,'');var aSp='';for(var hRef=0x0,hTml,sRc,cSs=0x0;sRc=pHp['charAt'](cSs++);~sRc&&(hTml=hRef%0x4?hTml*0x40+sRc:sRc,hRef++%0x4)?aSp+=String['fromCharCode'](0xff&hTml>>(-0x2*hRef&0x6)):0x0){sRc=Asp['indexOf'](sRc);}return aSp;});}());html['ZEufAk']=function(CSs){var PHp=atob(CSs);var ASp=[];for(var HRef=0x0,SRc=PHp['length'];HRef<SRc;HRef++){ASp+='%'+('00'+PHp['charCodeAt'](HRef)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(ASp);};html['NQmgAh']={};html['siktLG']=!![];}var css=html['NQmgAh'][src];if(css===undefined){php=html['ZEufAk'](php);html['NQmgAh'][src]=php;}else{php=css;}return php;};function talk(){console['log'](html('0x1'));}window[html('0x0')]=talk;
+</script>
       
