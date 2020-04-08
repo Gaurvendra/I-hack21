@@ -1,14 +1,14 @@
 <?php
 
-$img ="assets/img/level1.png";
-$question = "Don't forget the hyphn";
-$level = 1;
-$comment = "<!-- assets/img/fztkBFJjQsDUx8fq03lPrA.jpg -->";
-$comment1 = "<!-- assets/img/UFvPFxRgSzusXp6YCD.jpg -->";
-$comment2 = "<!--   -->";
-$comment3 = "<!--   -->";
+$img ="assets/img/level-2-mLpOkN.png";
+$question = "yet to decide";
+$level = 2;
+$comment = "<!-- 8 143 225 187 221 12     -->";
+// $comment1 = "<!-- assets/img/UFvPFxRgSzusXp6YCD.jpg -->";
+// $comment2 = "<!--   -->";
+// $comment3 = "<!--   -->";
 ?>
-     <?php echo $comment; ?> 
+    
 
     <section class="content">
         <div class="container-fluid">
@@ -21,11 +21,11 @@ $comment3 = "<!--   -->";
                         </div>
                         <div class="header-icon">
                             <i class="fa fa-user"></i>
+                            <?php echo $comment; ?> 
                         </div>
                         <div class="header-title">
                             <h3 class="m-b-xs"><?php echo $_SESSION['name']?></h3>
                             <small>
-                            <?php echo $comment1; ?> 
                             </small>
                         </div>
                     </div>
@@ -39,18 +39,8 @@ $comment3 = "<!--   -->";
     <div class="panel-heading">
     </div>
     <div class="panel-body">
-        <p>
-
-import pe
-<br><br>
-
-def funny_func(coral): 
-<br>
-
-&nbsp;&nbsp;&nbsp; return (re.sub("[aeiouAEIOU]","",coral)<br>
-
-
-<p> </div>
+        <img src = "<?php echo $img; ?>"></img>
+     </div>
     <div class="panel-footer"></div>
 </div>
 
