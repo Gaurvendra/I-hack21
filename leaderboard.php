@@ -119,7 +119,7 @@
                     <a href="dashboard.php">Challenge</a>
                 </li>  
                  <li class="active">
-                    <a href="leaderboard.php">LeaderBoard</a>
+                    <a href="leaderboard.php">Leaderboard</a>
                 </li>  
                 <li >
                     <a href="rules.html">Rules</a>

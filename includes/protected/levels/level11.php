@@ -3,8 +3,8 @@
 $img ="assets/img/level1.png";
 $question = "Don't forget the hyphn";
 $level = 1;
-$comment = "<!-- assets/img/fztkBFJjQsDUx8fq03lPrA.jpg -->";
-$comment1 = "<!-- assets/img/UFvPFxRgSzusXp6YCD.jpg -->";
+$comment = "<!-- assets/img/16JPqgBP.png -->";
+$comment1 = "<!-- assets/img/YVsRkVlQ.png -->";
 ?>
      <?php echo $comment; ?> 
 

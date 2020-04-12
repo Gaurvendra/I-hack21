@@ -1,12 +1,10 @@
 <?php
 
-$img ="assets/img/level1.png";
-$question = "Don't forget the hyphn";
-$level = 1;
-$comment = "<!-- assets/img/fztkBFJjQsDUx8fq03lPrA.jpg -->";
-$comment1 = "<!-- assets/img/UFvPFxRgSzusXp6YCD.jpg -->";
+$img ="assets/img/level-5.png";
+$question = "gli indizi non aiuteranno se non trovati!";
+$level = 5;
 ?>
-     <?php echo $comment; ?> 
+    
 
     <section class="content">
         <div class="container-fluid">
@@ -23,7 +21,6 @@ $comment1 = "<!-- assets/img/UFvPFxRgSzusXp6YCD.jpg -->";
                         <div class="header-title">
                             <h3 class="m-b-xs"><?php echo $_SESSION['name']?></h3>
                             <small>
-                            <?php echo $comment1; ?> 
                             </small>
                         </div>
                     </div>
@@ -37,18 +34,8 @@ $comment1 = "<!-- assets/img/UFvPFxRgSzusXp6YCD.jpg -->";
     <div class="panel-heading">
     </div>
     <div class="panel-body">
-        <p>
-
-import pe
-<br><br>
-
-def funny_func(coral): 
-<br>
-
-&nbsp;&nbsp;&nbsp; return (re.sub("[aeiouAEIOU]","",coral)<br>
-
-
-<p> </div>
+        <img src = "<?php echo $img; ?>"></img>
+     </div>
     <div class="panel-footer"></div>
 </div>
 
@@ -56,7 +43,6 @@ def funny_func(coral):
                 <div class="col-6">
                   <div class="p-3">
                     <br>
-                    <?php echo $comment; ?> 
                     <br><br>
                     <center><p><?php echo $question;?></p></center>
                     <div class="form-group">
