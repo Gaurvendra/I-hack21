@@ -41,8 +41,8 @@
                     </div>
                 </div>
                 <a class="navbar-brand" href="index.html">
-                    LUNA
-                    <span>v.1.4</span>
+                    iHack
+                    <span>v.4.0</span>
                 </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
@@ -118,17 +118,16 @@
                 <li>
                     <a href="dashboard.php">Challenge</a>
                 </li>  
-                 <li class="active">
+                 <li >
                     <a href="leaderboard.php">LeaderBoard</a>
-                </li>  
-                <li >
-                    <a href="rules.html">Rules</a>
+                </li> 
+                <li class="active">
+                    <a href=#>Rules</a>
                 </li>  
                 <li>
                 <a href="logout.php">Logout</a>
                 </li>
-                
-             
+                         
             </ul>
         </nav>
     </aside>
@@ -150,7 +149,7 @@
                                 <i class="pe page-header-icon pe-7s-menu"></i>
                             </div>
                             <div class="header-title">
-                                <h3 class="m-b-xs">LeaderBoard</h3>
+                                <h3 class="m-b-xs">Rules</h3>
                                 <small>
 
                                 </small>
@@ -165,42 +164,87 @@
 
                 <div class="col-md-12">
                     <div class="panel panel-filled">
-                        <div class="panel-heading">
-                           
-                           Scoreboard
-                        </div>
+                       
                         <div class="panel-body">
                         
-                            <table class="table table-responsive-sm">
-                                <thead>
-                                <tr>
-                                    <th>#</th>
-                                    <th>Name</th>
-                                    <th>Email</th>
-                                    <th>Level</th>
-                                    <th>Score</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <?php
-                                    require 'includes/protected/config.php';
-                                    $que1 = mysql_query("SELECT * FROM users ORDER BY score DESC LIMIT 20");
-    $i =1;
-                          while ($row = mysql_fetch_array($que1)) {
-                              
-                              ?>
-                            <tr>
-                              <td>&nbsp;<?php echo $i; ?></td>
-                              <td>&nbsp;<?php echo $row['name']; ?></td>
-                              <td>&nbsp;<?php echo $row['email']; ?></td>
-                              <td>&nbsp;<?php echo $row['level']; ?></td>
-                              <td>&nbsp;<?php echo ($row['score'] + $row['bonus']); ?></td>
-                            </tr>
-                          <?php
-                              $i=$i+1;
-                          } ?>
-                                </tbody>
-                            </table>
+                               <h4>Important Rules</h4>
+
+                            <div class="v-timeline vertical-container">
+                                <div class="vertical-timeline-block">
+                                    <div class="vertical-timeline-icon">
+                                        <i class="fa fa-file"></i>
+                                    </div>
+                                    <div class="vertical-timeline-content">
+                                        <div class="p-sm">
+                                            <span class="vertical-date pull-right"> <small></small> </span>
+
+                                            <h2>#1</h2>
+
+                                            <p>The game play involves getting to the next level by using any of the means of encryption and decryption. So keep yourself focussed and try to solve more and more questions in order to reach at the top.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vertical-timeline-block">
+                                    <div class="vertical-timeline-icon">
+                                        <i class="fa fa-file"></i>
+                                    </div>
+                                    <div class="vertical-timeline-content">
+                                        <div class="p-sm">
+                                            <span class="vertical-date pull-right"> <small></small> </span>
+
+                                            <h2>#2</h2>
+
+                                            <p>There are mainly 3 ways by which you can get across levels Entering the answer in the text box Changing the URL in the address bar Clicking on various objects on the page.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vertical-timeline-block">
+                                    <div class="vertical-timeline-icon">
+                                        <i class="fa fa-file"></i>
+                                    </div>
+                                    <div class="vertical-timeline-content">
+                                        <div class="p-sm">
+                                            <span class="vertical-date pull-right"> <small></small> </span>
+
+                                            <h2>#3</h2>
+
+                                            <p>Answers are not case sensitive. In case the answer contains more than one word, do not forget to include spaces. We try to cover most possible answers to a level, but do try out different combinations of answers if we might have missed some out (we're human after all). Answers with multiple words will contain a space between them, so do take care of the same.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vertical-timeline-block">
+                                    <div class="vertical-timeline-icon">
+                                        <i class="fa fa-file"></i>
+                                    </div>
+                                    <div class="vertical-timeline-content">
+                                        <div class="p-sm">
+                                            <span class="vertical-date pull-right"> <small></small> </span>
+
+                                            <h2>#4</h2>
+
+                                            <p>Correct answers will directly take you to next level and if the same page comes back, then you need to replan your strategy for the level.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <div class="vertical-timeline-block">
+                                    <div class="vertical-timeline-icon">
+                                        <i class="fa fa-file"></i>
+                                    </div>
+                                    <div class="vertical-timeline-content">
+                                        <div class="p-sm">
+                                            <span class="vertical-date pull-right"> <small></small> </span>
+
+                                            <h2>#5</h2>
+
+                                            <p>This rule could be a happy news for all, because we have not made any restriction on the number of trials or answers to be given for any particular questions.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -377,7 +421,7 @@
                     "showEasing": "swing",
                     "timeOut": "6000"
                 };
-                toastr.warning('<strong>You entered to I-hack</strong> <br/><small>An online event by upescsi.in. </small>');
+                toastr.warning('<strong>You entered to I-hack</strong> <br/><small>A online eventbt upescsi.in </small>');
             }, 1600)
 
 
@@ -387,7 +431,5 @@
 
 </body>
 
-
-<!-- Mirrored from webapplayers.com/luna_admin-v1.4/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Mar 2020 12:40:29 GMT -->
 
 </html>

@@ -49,13 +49,14 @@
                 </li>
                 <li >
                     <a href="leaderboard.php">Leaderboard</a>
-                </li>  
+                </li> 
+                 <li >
+                    <a href="rules.html">Rules</a>
+                </li> 
                 <li >
                     <a href="logout.php">Logout</a>
                 </li>
-                <li><a href="http://www.upescsi.in/">About</a></li>
-
-                
+              
              
             </ul>
         </nav>
