@@ -34,7 +34,7 @@ $level = 5;
     <div class="panel-heading">
     </div>
     <div class="panel-body">
-        <img src = "<?php echo $img; ?>"></img>
+        <img src = "<?php echo $img; ?>">
      </div>
     <div class="panel-footer"></div>
 </div>
