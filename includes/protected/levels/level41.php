@@ -5,7 +5,7 @@ $question = "The image have all the secret inside it ....";
 $level = 4;
 $comment1 = "<!-- Download_Image -->";
 $comment2 = "<!-- Base-64 encryption -->";
-$comment2 = "<!-- zip file -->";
+$comment3 = "<!-- zip file -->";
 ?>     
          <section class="content">
         <div class="container-fluid">
@@ -46,6 +46,8 @@ $comment2 = "<!-- zip file -->";
                     </div>
 
                 </div>
+                      <?php echo $comment3; ?> 
+                       
             <div class="col-md-6">
                     <div class="panel panel-filled">
                         <div class="panel-heading">
@@ -64,7 +66,8 @@ $comment2 = "<!-- zip file -->";
                             </form>
                         </div>
                     </div>
-                  
+                     <?php echo $comment1; ?> 
+                   <?php echo $comment2; ?> 
                 </div>
                 </div>
        
