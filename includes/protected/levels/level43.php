@@ -43,6 +43,7 @@ $comment2 = "<!-- bandit0 -->";
 <img src="<?php echo $img ?>" width="300px" height="300px">
 <p> </div>
                         <div class="panel-footer"></div>
+                              <?php echo $comment2; ?> 
                     </div>
 
                 </div>
@@ -64,6 +65,8 @@ $comment2 = "<!-- bandit0 -->";
                             </form>
                         </div>
                     </div>
+                      <?php echo $comment1; ?> 
+                      <?php echo $comment3; ?> 
                   
                 </div>
                 </div>
