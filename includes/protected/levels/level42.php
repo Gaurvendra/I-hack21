@@ -5,7 +5,7 @@ $question = "Can you find me :) ???";
 $level = 4;
 $comment1 = "<!-- Download_Image -->";
 $comment2 = "<!-- Base-32 encryption -->";
-$comment2 = "<!-- notepad -->";
+$comment3 = "<!-- notepad -->";
 ?>     
          <section class="content">
         <div class="container-fluid">
@@ -38,6 +38,7 @@ $comment2 = "<!-- notepad -->";
                           
                         </div>
                         <div class="panel-body">
+                                  <?php echo $comment3; ?> 
                             <p>
 
 <img src="<?php echo $img ?>" width="300px" height="300px">
@@ -63,6 +64,8 @@ $comment2 = "<!-- notepad -->";
                                  <button class="btn btn-accent">Success</button>
                             </form>
                         </div>
+                              <?php echo $comment1; ?> 
+                              <?php echo $comment2; ?> 
                     </div>
                   
                 </div>
