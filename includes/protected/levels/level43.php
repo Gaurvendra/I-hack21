@@ -5,7 +5,7 @@ $question = "Can you the secret code ??";
 $level = 4;
 $comment1 = "<!-- bandit.labs.overthewire.org -->";
 $comment2 = "<!-- 2220 -->";
-$comment2 = "<!-- bandit0 -->";
+$comment3 = "<!-- bandit0 -->";
 ?>     
          <section class="content">
         <div class="container-fluid">
