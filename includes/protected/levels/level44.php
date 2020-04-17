@@ -47,6 +47,7 @@ $comment2 = "<!-- 5 -->";
 
                 </div>
             <div class="col-md-6">
+                      <?php echo $comment1; ?> 
                     <div class="panel panel-filled">
                         <div class="panel-heading">
                             
@@ -66,6 +67,7 @@ $comment2 = "<!-- 5 -->";
                     </div>
                   
                 </div>
+                      <?php echo $comment2; ?> 
                 </div>
        
         </div>
