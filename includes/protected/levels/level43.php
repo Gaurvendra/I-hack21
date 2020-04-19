@@ -40,7 +40,7 @@ $comment3 = "<!-- bandit0 -->";
                         <div class="panel-body">
                             <p>
 
-<img src="<?php echo $img ?>" width="300px" height="300px">
+<img src="<?php echo $img; ?>" width="300px" height="300px">
 <p> </div>
                         <div class="panel-footer"></div>
                               <?php echo $comment2; ?> 
