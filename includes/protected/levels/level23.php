@@ -38,9 +38,11 @@ $comment = "<!-- 71 142 107 205 -->";
 <div class="panel panel-c-white">
     <div class="panel-heading">
     </div>
-    <div class="panel-body">
-        <img src = "<?php echo $img; ?>"></img>
-     </div>
+                      <div class="panel-body">
+                            <p>
+
+<img src="<?php echo $img ?>" width="300px" height="300px">
+<p> </div>
     <div class="panel-footer"></div>
 </div>
 
