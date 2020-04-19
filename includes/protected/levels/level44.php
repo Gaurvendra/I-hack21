@@ -40,7 +40,7 @@ $comment2 = "<!-- 5 -->";
                         <div class="panel-body">
                             <p>
 
-<img src="<?php echo $img ?>" width="300px" height="300px">
+<img src="<?php echo $img; ?>" width="300px" height="300px">
 <p> </div>
                         <div class="panel-footer"></div>
                     </div>
