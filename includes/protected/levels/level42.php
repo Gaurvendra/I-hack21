@@ -41,7 +41,7 @@ $comment3 = "<!-- notepad -->";
                                   <?php echo $comment3; ?> 
                             <p>
 
-<img src="<?php echo $img ?>" width="300px" height="300px">
+<img src="<?php echo $img; ?>" width="300px" height="300px">
 <p> </div>
                         <div class="panel-footer"></div>
                     </div>
