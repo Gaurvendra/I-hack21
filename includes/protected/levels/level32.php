@@ -29,21 +29,43 @@ $comment = "<!--  -->";
                 </div>
             </div>
             <div class="row">
-                <div class="col-6">
-                  <div class="box p-3"> <img src=<?php echo $img; ?> alt="Devices"></div>
+             <div class="col-md-6">
+
+                    <div class="panel panel-c-white">
+                        <div class="panel-heading">
+                           
+                           <!-- Filled panel with custom color-->
+                        </div>
+                        <div class="panel-body">
+                            <p>
+
+<img src="<?php echo $img ?>" width="300px" height="300px">
+<p> </div>
+                        <div class="panel-footer"></div>
+                    </div>
+
                 </div>
-                <div class="col-6">
-                  <div class="p-3">
-                    <br><br><br>
-                    <center><p><?php echo $question;?></p></center>
-                    <div class="form-group">
-                      <form id="level" action="response.php" method="post">
-                        <input class="form-control form-control-lg" type="text" name="solution" placeholder=""><br>
-                        <center><button form="level" type="submit" class="btn btn-outline-success">Success</button></center>
-                      </form>
+                    
+                       
+            <div class="col-md-6">
+                    <div class="panel panel-filled">
+                        <div class="panel-heading">
+                            
+                            Question
+                        </div>
+                        <div class="panel-body">
+
+                            <p><?php echo $question;?></p>
+
+                            <form class="form-group" action="response.php" method="post">
+                                <div class="form-group row"><label for="inputEmail3" class="col-sm-2 col-form-label">Solution</label>
+                                    <div class="col-sm-10"><input class="form-control" type="text" name="solution" placeholder=""></div>
+                                </div>
+                                 <button class="btn btn-accent">Success</button>
+                            </form>
                         </div>
                     </div>
-                  
+                    
                 </div>
                 </div>
        
