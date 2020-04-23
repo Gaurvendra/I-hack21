@@ -41,7 +41,7 @@ $comment = "<!-- 109 10 111 104 135 55 261 -->";
                        <div class="panel-body">
                             <p>
 
-<img src="<?php echo $img; ?>" width="300px" height="300px">
+<img src="<?php echo $img; ?>"  width=100% height=auto >
 <p> </div>
     <div class="panel-footer"></div>
 </div>
@@ -70,4 +70,3 @@ $comment = "<!-- 109 10 111 104 135 55 261 -->";
 
 </div>
 <!-- End wrapper-->
-      
