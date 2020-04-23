@@ -1,7 +1,7 @@
 <?php
 
 $img ="assets/img/level-2-bGtYhN.png";
-$question = "yet to decide";
+$question = "Charat";
 $level = 2;
 $comment = "<!-- 71 142 107 205 -->";
 // $comment1 = "<!-- assets/img/UFvPFxRgSzusXp6YCD.jpg -->";
@@ -41,7 +41,7 @@ $comment = "<!-- 71 142 107 205 -->";
                       <div class="panel-body">
                             <p>
 
-<img src="<?php echo $img; ?>"  width=100% height=auto >
+<img src="<?php echo $img; ?>"  width="300" height="300" >
 <p> </div>
     <div class="panel-footer"></div>
 </div>
