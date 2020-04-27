@@ -25,6 +25,7 @@ $comment3 = "<!-- bandit0 -->";
                                 
                             </small>
                         </div>
+                              <?php echo $comment1; ?> 
                     </div>
                     <hr>
                 </div>
@@ -65,7 +66,7 @@ $comment3 = "<!-- bandit0 -->";
                             </form>
                         </div>
                     </div>
-                      <?php echo $comment1; ?> 
+                     
                       <?php echo $comment3; ?> 
                   
                 </div>
