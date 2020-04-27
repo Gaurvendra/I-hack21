@@ -4,7 +4,7 @@ $img ="assets/img/leone.jpg";
 $question = "Can you find me :) ???";
 $level = 4;
 $comment1 = "<!-- Download_Image -->";
-$comment2 = "<!-- Base-32 encryption -->";
+$comment2 = "<!-- noitpyrcne 23-esaB -->";
 $comment3 = "<!-- notepad -->";
 ?>     
          <section class="content">
@@ -25,6 +25,7 @@ $comment3 = "<!-- notepad -->";
                                 
                             </small>
                         </div>
+                             <?php echo $comment1; ?>
                     </div>
                     <hr>
                 </div>
@@ -64,7 +65,7 @@ $comment3 = "<!-- notepad -->";
                                  <button class="btn btn-accent">Success</button>
                             </form>
                         </div>
-                              <?php echo $comment1; ?> 
+                               
                               <?php echo $comment2; ?> 
                     </div>
                   
