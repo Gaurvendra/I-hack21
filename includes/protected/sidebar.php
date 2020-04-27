@@ -51,7 +51,7 @@
                     <a href="leaderboard.php">Leaderboard</a>
                 </li> 
                  <li >
-                    <a href="rules.html">Rules</a>
+                    <a href="rules.php">Rules</a>
                 </li> 
                 <li >
                     <a href="logout.php">Logout</a>
