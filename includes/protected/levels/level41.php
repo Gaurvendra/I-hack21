@@ -4,7 +4,7 @@ $img ="assets/img/hoho.jpg";
 $question = "The image have all the secret inside it ....";
 $level = 4;
 $comment1 = "<!-- Download_Image -->";
-$comment2 = "<!-- Base-64 encryption -->";
+$comment2 = "<!-- noitpyrcne 46-esaB -->";
 $comment3 = "<!-- zip file -->";
 ?>
 <section class="content">
@@ -25,6 +25,7 @@ $comment3 = "<!-- zip file -->";
 
                         </small>
                     </div>
+                    <?php echo $comment1; ?>
                 </div>
                 <hr>
             </div>
@@ -67,7 +68,7 @@ $comment3 = "<!-- zip file -->";
                         </form>
                     </div>
                 </div>
-                <?php echo $comment1; ?>
+                
                 <?php echo $comment2; ?>
             </div>
         </div>
