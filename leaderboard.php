@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="vendor/toastr/toastr.min.css" />
 
     <!-- App styles -->
-    <link rel="icon" type="image/png" sizes="16x16" href="p/images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="p/images/favicon/favicon.ico">
     <link rel="stylesheet" href="styles/pe-icons/pe-icon-7-stroke.css" />
     <link rel="stylesheet" href="styles/pe-icons/helper.css" />
     <link rel="stylesheet" href="styles/stroke-icons/style.css" />

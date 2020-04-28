@@ -17,7 +17,7 @@ if (isset($_SESSION['email'])) {
 
     <!-- Page title -->
     <title>i-hack</title>
-<link rel="icon" type="image/png" sizes="16x16" href="p/images/favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="16x16" href="p/images/favicon/favicon.ico">
     <!-- Vendor styles -->
     <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.css"/>
     <link rel="stylesheet" href="vendor/animate.css/animate.css"/>

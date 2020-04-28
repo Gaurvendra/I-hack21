@@ -29,7 +29,7 @@ $que1 = mysql_query("SELECT * FROM users ORDER BY score DESC LIMIT 20");
     <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.css"/>
     <link rel="stylesheet" href="vendor/animate.css/animate.css"/>
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css"/>
-<link rel="icon" type="image/png" sizes="16x16" href="p/images/favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="16x16" href="p/images/favicon/favicon.ico">
     <!-- App styles -->
     <link rel="stylesheet" href="styles/pe-icons/pe-icon-7-stroke.css"/>
     <link rel="stylesheet" href="styles/pe-icons/helper.css"/>

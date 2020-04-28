@@ -1,6 +1,9 @@
 <?php
-require 'includes/protected/config.php';
 session_start();
+if(isset($_POST['solution']) && isset($_SESSION['email']))
+{
+require 'includes/protected/config.php';
+
 $answer = $_POST['solution'];
 $level = $_SESSION['level'];
 $random = $_SESSION['random'];
@@ -15,4 +18,7 @@ if ($solution === strtolower($answer)) {
     $result = mysql_query("UPDATE `Progress` SET `".$level."`= CURRENT_TIMESTAMP() WHERE `email` = '".$email."'") or die("error");
 }
     header('location:./dashboard.php');
+}
+else
+header('location:./dashboard.php');
 
