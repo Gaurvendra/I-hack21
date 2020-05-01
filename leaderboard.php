@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html>
-
+<?php
+session_start();
+if(isset($_SESSION['email']))
+{
+    require 'includes/protected/config.php';
+    $emaill = $_SESSION['email'];
+    $resultt = mysql_query("SELECT * FROM `users` WHERE `email`= '".$emaill."'") or die("Cannot connect to database!");
+    $roww = mysql_fetch_array($resultt);
+    $user_countt = mysql_num_rows($resultt);
+    if ($user_countt==1) {
+      $level = $roww['level'];
+    }
+    
+}
+?>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -62,7 +76,6 @@
 
 
                     <?php
-session_start();
 if (isset($_SESSION['email'])) {
  ?>
 
@@ -144,7 +157,7 @@ if (isset($_SESSION['email'])) {
                             <a href="leaderboard.php">Leaderboard</a>
                         </li>
                         <li>
-                            <a href="rules.html">Rules</a>
+                            <a href="rules.php">Rules</a>
                         </li>
                         <?php
 
@@ -174,7 +187,13 @@ if (isset($_SESSION['email'])) {
                             <div class="view-header">
 
                                 <div class="header-icon">
-                                    <i class="pe page-header-icon pe-7s-menu"></i>
+                                    <i class="pe page-header-icon pe-7s-menu"><?php
+                                     if(isset($_SESSION['email']))
+                                     if($level == 9)
+                                     {
+                                         echo "<a href='bravo/'>&nbsp;</a>";
+                                     }
+                                     ?></i>
                                 </div>
                                 <div class="header-title">
                                     <h3 class="m-b-xs">LeaderBoard</h3>
