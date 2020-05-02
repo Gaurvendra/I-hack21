@@ -62,7 +62,7 @@ if (isset($_SESSION['email'])) {
                     <p>
 
                     </p>
-                    <form name = "myform1" action="register1.php" onsubmit="return validateeform()" id="loginForm" novalidate method="post">
+                    <form name = "myform1" action="register1.php" onsubmit="return validateeform()" id="loginForm" method="post">
                         <div class="row">
                             <div class="form-group col-lg-6">
                                 <label>Name</label>
