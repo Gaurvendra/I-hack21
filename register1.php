@@ -1,4 +1,6 @@
 <?php
+if(isset($_POST['email']) && isset($_POST['password']))
+{
 require 'includes/protected/config.php';
 
 $name = $_POST['name'];
@@ -25,4 +27,5 @@ if ($user_count==0) {
 }
 else{
     echo "<script>alert('Email Already Registered !!!!'); window.location.href='login.php';</script>";
+}
 }

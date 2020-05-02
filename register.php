@@ -152,7 +152,4 @@ if (x==null || x==""){
 </script> 
 
 </body>
-
-
-<!-- Mirrored from webapplayers.com/luna_admin-v1.4/register.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Mar 2020 12:41:27 GMT -->
 </html>
