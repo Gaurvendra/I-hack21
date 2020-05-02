@@ -128,10 +128,16 @@ if (name==null || name==""){
   return false;
    
 }
-if(num1.length!=10){
-   alert("Please enter a valid contact no. ");  
-  return false;
-}
+ var phoneno = /^\d{10}$/;
+  if(num1.value.match(phoneno))
+  {
+      return true;
+  }
+  else
+  {
+     alert("Not a valid Phone Number");
+     return false;
+  }
 
 if (password==null || password==""){  
   alert("Password can't be blank");  
