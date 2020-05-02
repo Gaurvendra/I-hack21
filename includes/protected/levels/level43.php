@@ -1,7 +1,7 @@
 <?php
 
 $img ="assets/img/sunny.png";
-$question = "Can you the secret code ??";
+$question = "Can you guess the secret code ??";
 $level = 4;
 $comment1 = "<!-- bandit.labs.overthewire.org -->";
 $comment2 = "<!-- 2220 -->";

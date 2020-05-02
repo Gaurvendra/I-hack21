@@ -127,7 +127,7 @@ if (name==null || name==""){
   alert("Please Enter A Valid Contact no. ");   
   return false;
    
-}else if((num1.length<10 || num1.length>10)){
+}else if(num1.length!=10){
    alert("Please enter a valid contact no. ");  
   return false;
 }
