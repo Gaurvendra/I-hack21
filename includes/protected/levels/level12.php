@@ -39,7 +39,7 @@ $comment1 = "<!-- assets/img/YVsRkVlQ.png -->";
     <div class="panel-body">
         <p>
 
-import pe
+import re
 <br><br>
 
 def funny_func(coral): 
