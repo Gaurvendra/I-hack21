@@ -53,7 +53,7 @@ $que1 = mysql_query("SELECT * FROM users ORDER BY score DESC LIMIT 20");
             </div>
             <a class="navbar-brand" href="index.html">
                 iHack
-                <span>v.4.0</span>
+                <span>v.5.0</span>
             </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
@@ -103,7 +103,7 @@ $que1 = mysql_query("SELECT * FROM users ORDER BY score DESC LIMIT 20");
                                     <div>
                                         
                                         <h2 class="m-t-xs m-b-none">
-                                           iHack 2020
+                                           iHack 2021
                                         </h2>
                                         <small>
                                            ihack is a online cryptic hunt conducted for 24 hours by UPES-CSI. Participation will be done individually. Participants would have to search for clues spread over the webpages to pass through the various levels and score points accordingly.
