@@ -306,7 +306,7 @@ As the event is online, participants will be provided with their unique id and p
     
       <p class="copyright text-center">
         © <span id="writeCopyrights"></span>
-        Made by <span class="fa fa-bolt"></span>-heads of<a href="http://www.upescsi.in/" target="_blank"> UPES-CSI</a>
+        Made by <span class="fa fa-bolt"></span><a href="http://www.upescsi.in/" target="_blank"> UPES-CSI</a>
       </p>
    
   </div>
@@ -358,5 +358,5 @@ As the event is online, participants will be provided with their unique id and p
 </body>
 
 
-<!-- Mirrored from webapplayers.com/luna_admin-v1.4/profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Mar 2020 12:41:20 GMT -->
+
 </html>
