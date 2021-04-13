@@ -14,7 +14,7 @@
             </div>
             <a class="navbar-brand" href="index.html">
                iHack
-                <span>v.4.0</span>
+                <span>v.5.0</span>
             </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
