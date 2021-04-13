@@ -1,6 +1,6 @@
 <?php
 
-$img ="assets/img/haha.jpg";
+$img ="assets/img/HaHa.jpg";
 $question = "GiVe tHe NaMe??";
 $level = 4;
 $comment1 = "<!-- The image have all the secret inside it .... -->";
