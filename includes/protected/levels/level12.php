@@ -1,7 +1,7 @@
 <?php
 
 $img ="assets/img/level1.png";
-$question = "Don't forget the hyphn";
+$question = "Don't forget the comma!!";
 $level = 1;
 $comment = "<!-- assets/img/22.png -->";
 //$comment1 = "<!-- assets/img/YVsRkVlQ.png -->";
