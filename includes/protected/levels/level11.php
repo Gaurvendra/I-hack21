@@ -3,7 +3,7 @@
 $img ="assets/img/level1.png";
 $question = "Don't forget the comma!!";
 $level = 1;
-$comment = "<!-- assets/img/11.jpg -->";
+$comment = "<!-- assets/img/11.png -->";
 //$comment1 = "<!-- assets/img/YVsRkVlQ.png -->";
 ?>
      <?php echo $comment; ?> 
