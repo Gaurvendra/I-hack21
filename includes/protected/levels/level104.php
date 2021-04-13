@@ -23,8 +23,7 @@
             </div>
             <div class="row">
                 <div class ="col-12">
-            <div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/ehhuGD0nByYxO" width="100%" height="450" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/congratulations-confetti-exclamation-ehhuGD0nByYxO"></a></p>
-            </div>
+           <div style="width:100%;height:0;padding-bottom:67%;position:relative;"><iframe src="https://giphy.com/embed/3oz8xAFtqoOUUrsh7W" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/studiosoriginals-3oz8xAFtqoOUUrsh7W">via GIPHY</a></p>  </div>
 
     </div>
 </section>
