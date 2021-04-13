@@ -1,11 +1,10 @@
 <?php
 
-$img ="assets/img/hoho.jpg";
-$question = "The image have all the secret inside it ....";
+$img ="assets/img/haha.jpg";
+$question = "GiVe tHe NaMe??";
 $level = 4;
-$comment1 = "<!-- Download_Image -->";
-$comment2 = "<!-- noitpyrcne 46-esaB -->";
-$comment3 = "<!-- zip file -->";
+$comment1 = "<!-- The image have all the secret inside it .... -->";
+
 ?>
 <section class="content">
     <div class="container-fluid">
@@ -48,7 +47,7 @@ $comment3 = "<!-- zip file -->";
                 </div>
 
             </div>
-            <?php echo $comment3; ?>
+           
 
             <div class="col-md-6">
                 <div class="panel panel-filled">
@@ -69,7 +68,7 @@ $comment3 = "<!-- zip file -->";
                     </div>
                 </div>
                 
-                <?php echo $comment2; ?>
+                
             </div>
         </div>
 
