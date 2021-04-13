@@ -1,7 +1,7 @@
 <?php
 
 $img ="assets/img/qqmq.jpg";
-$question = "gli indizi non aiuteranno se non trovati!";
+$question = "これは難しいです、手がかりは役に立ちません";
 $level = 5;
 ?>
 
