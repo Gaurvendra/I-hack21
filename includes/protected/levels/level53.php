@@ -1,6 +1,6 @@
 <?php
 
-$img ="assets/img/level-5.png";
+$img ="assets/img/qqmq.jpg";
 $question = "gli indizi non aiuteranno se non trovati!";
 $level = 5;
 ?>
