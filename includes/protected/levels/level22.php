@@ -4,7 +4,7 @@ $img ="assets/img/222.png";
 $question = "What is the time??";
 $level = 2;
 $comment = "<!-- Part1:- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9 -->";
-// $comment1 = "<!-- JWT -->";
+ $comment1 = "<!-- JWT -->";
 // $comment2 = "<!--   -->";
 // $comment3 = "<!--   -->";
 ?>
