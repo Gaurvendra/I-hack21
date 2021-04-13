@@ -5,7 +5,7 @@ $question = "What is the time??";
 $level = 2;
 $comment = "<!--Part1:-  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9     -->";
 // $comment1 = "<!-- assets/img/UFvPFxRgSzusXp6YCD.jpg -->";
-// $comment2 = "<!--   -->";
+// $comment2 = "<!-- JWT  -->";
 // $comment3 = "<!--   -->";
 ?>
     
@@ -50,7 +50,7 @@ $comment = "<!--Part1:-  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9     -->";
                 <div class="col-6">
                   <div class="p-3">
                     <br>
-                    <?php echo $comment; ?> 
+                    <?php echo $comment2; ?> 
                     <br><br>
                     <center><p><?php echo $question;?></p></center>
                     <div class="form-group">
@@ -67,7 +67,7 @@ $comment = "<!--Part1:-  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9     -->";
         </div>
     </section>
     <!-- End main content-->
-<script>var _0x10dd=['16735gadYCu','63930Douuck','13oJYiyH','eyJzdWIiOiIxMjM0NTY3ODkwIiwidGltZSI6Ijk6MTIiLCJpYXQiOjE1MTYyMzkwMjJ9','207569BKmOCt','12rnmZOe','6430lgaGGN','5311bDGaLK','90748tSCIzq','1rEEdVR','23lhNWTG','log','13cornRM','16999KHOtLE'];(function(_0x478185,_0x354135){var _0x27d84f=_0x26e8;while(!![]){try{var _0x5023ab=parseInt(_0x27d84f(0x9a))*parseInt(_0x27d84f(0xa0))+-parseInt(_0x27d84f(0xa3))+-parseInt(_0x27d84f(0x9f))*-parseInt(_0x27d84f(0xa4))+parseInt(_0x27d84f(0xa2))*-parseInt(_0x27d84f(0x97))+parseInt(_0x27d84f(0x9d))*parseInt(_0x27d84f(0xa1))+parseInt(_0x27d84f(0x9c))+parseInt(_0x27d84f(0x99))*-parseInt(_0x27d84f(0x9b));if(_0x5023ab===_0x354135)break;else _0x478185['push'](_0x478185['shift']());}catch(_0x54741b){_0x478185['push'](_0x478185['shift']());}}}(_0x10dd,0x1f66d));function hi(){var _0x2b4c07=_0x26e8;console[_0x2b4c07(0x98)](_0x2b4c07(0x9e));}function _0x26e8(_0x53833e,_0x891659){_0x53833e=_0x53833e-0x97;var _0x10dd95=_0x10dd[_0x53833e];return _0x10dd95;}hi();</script>
+<script>var _0x58a5=['668905hLPMpQ','1WTBeyU','929586AFUpeH','Part3:-\x20eyJzdWIiOiIxMjM0NTY3ODkwIiwidGltZSI6Ijk6MTIiLCJpYXQiOjE1MTYyMzkwMjJ9','log','587788sYejRs','2aUlSdq','529520LYVZEY','33bGIIUM','21703jASXCC','723890TknReO','844514AwzzLQ'];function _0x2c2b(_0x35b699,_0x2d37fc){_0x35b699=_0x35b699-0x1bb;var _0x58a55b=_0x58a5[_0x35b699];return _0x58a55b;}(function(_0x1a8dae,_0x5ee3fc){var _0x2b704b=_0x2c2b;while(!![]){try{var _0x42aac8=-parseInt(_0x2b704b(0x1c6))*-parseInt(_0x2b704b(0x1c5))+parseInt(_0x2b704b(0x1be))*parseInt(_0x2b704b(0x1c2))+-parseInt(_0x2b704b(0x1bc))+-parseInt(_0x2b704b(0x1bf))+-parseInt(_0x2b704b(0x1bd))+parseInt(_0x2b704b(0x1c4))*parseInt(_0x2b704b(0x1c3))+parseInt(_0x2b704b(0x1bb));if(_0x42aac8===_0x5ee3fc)break;else _0x1a8dae['push'](_0x1a8dae['shift']());}catch(_0x4dd9ee){_0x1a8dae['push'](_0x1a8dae['shift']());}}}(_0x58a5,0x9d348));function hi(){var _0x5e24b3=_0x2c2b;console[_0x5e24b3(0x1c1)](_0x5e24b3(0x1c0));}hi();</script>
 
 </div>
 <!-- End wrapper-->
