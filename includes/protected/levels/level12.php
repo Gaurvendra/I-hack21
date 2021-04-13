@@ -3,8 +3,8 @@
 $img ="assets/img/level1.png";
 $question = "Don't forget the hyphn";
 $level = 1;
-$comment = "<!-- assets/img/16JPqgBP.png -->";
-$comment1 = "<!-- assets/img/YVsRkVlQ.png -->";
+$comment = "<!-- assets/img/22.png -->";
+//$comment1 = "<!-- assets/img/YVsRkVlQ.png -->";
 ?>
      <?php echo $comment; ?> 
 
@@ -23,7 +23,7 @@ $comment1 = "<!-- assets/img/YVsRkVlQ.png -->";
                         <div class="header-title">
                             <h3 class="m-b-xs"><?php echo $_SESSION['name']?></h3>
                             <small>
-                            <?php echo $comment1; ?> 
+                           
                             </small>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ import re
 def funny_func(coral): 
 <br>
 
-&nbsp;&nbsp;&nbsp; return (re.sub("[aeiouAEIOU]","",coral)<br>
+&nbsp;&nbsp;&nbsp; return (re.sub("[.eENWS °26E95OU]","",coral)<br>
 
 
 <p> </div>
