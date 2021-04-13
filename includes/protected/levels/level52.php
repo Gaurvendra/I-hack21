@@ -49,7 +49,7 @@ $level = 5;
                     <div class="panel-body">
 
                         <p><?php echo $question;?></p>
-s
+
                         <form class="form-group" action="response.php" method="post">
                             <div class="form-group row"><label for="inputEmail3" class="col-sm-2 col-form-label">Solution</label>
                                 <div class="col-sm-10"><input class="form-control" type="text" name="solution" placeholder=""></div>
