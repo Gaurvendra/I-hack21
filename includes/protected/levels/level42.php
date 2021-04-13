@@ -3,9 +3,9 @@
 $img ="assets/img/leone.jpg";
 $question = "Can you find me :) ???";
 $level = 4;
-$comment1 = "<!-- Download_Image -->";
+
 $comment2 = "<!-- noitpyrcne 23-esaB -->";
-$comment3 = "<!-- notepad -->";
+
 ?>     
          <section class="content">
         <div class="container-fluid">
@@ -25,7 +25,7 @@ $comment3 = "<!-- notepad -->";
                                 
                             </small>
                         </div>
-                             <?php echo $comment1; ?>
+                             <?php echo $comment2; ?>
                     </div>
                     <hr>
                 </div>
@@ -39,7 +39,7 @@ $comment3 = "<!-- notepad -->";
                           
                         </div>
                         <div class="panel-body">
-                                  <?php echo $comment3; ?> 
+                                 
                             <p>
 
 <img src="<?php echo $img; ?>"  width=100% height=auto>
@@ -66,7 +66,7 @@ $comment3 = "<!-- notepad -->";
                             </form>
                         </div>
                                
-                              <?php echo $comment2; ?> 
+                              
                     </div>
                   
                 </div>
