@@ -1,10 +1,10 @@
 <?php
 
-$img ="assets/img/asdfghjkl.jpg";
-$question = "nlioelehnnwvevtgketeyyurro";
+$img ="assets/img/ho.jpeg";
+$question = "What is the secret??";
 $level = 4;
-$comment1 = "<!-- Fence -->";
-$comment2 = "<!-- 5 -->";
+$comment1 = "<!-- The image have all the secrets inside it..... -->";
+$comment2 = "<!-- JWT -->";
 
 ?>     
          <section class="content">
@@ -67,7 +67,7 @@ $comment2 = "<!-- 5 -->";
                     </div>
                   
                 </div>
-                      <?php echo $comment2; ?> 
+                     <?php echo $comment2; ?> 
                 </div>
        
         </div>
